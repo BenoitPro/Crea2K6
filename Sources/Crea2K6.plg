@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Crea2K6 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Fildz\LOCALS~1\Temp\RSP60.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Crea2K6.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\Backup\Donnees\Fac\Licence_3\Semestre_5\I5tc2-Interface_Homme_Machine[6]\Projet\Sources\Crea2K6\Crea2K6Doc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Fildz\LOCALS~1\Temp\RSP60.tmp" 
+Creating temporary file "C:\DOCUME~1\Fildz\LOCALS~1\Temp\RSP61.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Crea2K6.pdb" /debug /machine:I386 /out:"Debug/Crea2K6.exe" /pdbtype:sept 
+".\Debug\AideDialog.obj"
+".\Debug\Crea2K6.obj"
+".\Debug\Crea2K6Doc.obj"
+".\Debug\Crea2K6View.obj"
+".\Debug\Entite.obj"
+".\Debug\FontPredefDlg.obj"
+".\Debug\ImageFondDlg.obj"
+".\Debug\ImageRessource.obj"
+".\Debug\ImagetteDlg.obj"
+".\Debug\Img.obj"
+".\Debug\LesImagesRessources.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Picture.obj"
+".\Debug\PrintData.obj"
+".\Debug\RedimDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Texte.obj"
+".\Debug\TexteDialog.obj"
+".\Debug\Crea2K6.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Fildz\LOCALS~1\Temp\RSP61.tmp"
+<h3>Output Window</h3>
+Compiling...
+Crea2K6Doc.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Crea2K6.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,636 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 12, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Crea2K6.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.fra\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.fra\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Crea2K6.ico"
+IDR_CREA2KTYPE          ICON    DISCARDABLE     "res\\Crea2K6Doc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_POLICEPREDEF        BITMAP  DISCARDABLE     "res\\policepr.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    SEPARATOR
+    BUTTON      ID_INSERTION_TEXTE
+    BUTTON      ID_RESSOURCES_POLICESPRDFINIES
+    SEPARATOR
+    BUTTON      ID_INSERTION_IMAGE
+    SEPARATOR
+    BUTTON      ID_RESSOURCES_IMAGETTES
+    BUTTON      ID_RESSOURCES_IMAGEDEFOND
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "&Nouveau\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "&Ouvrir...\tCtrl+O",          ID_FILE_OPEN
+        MENUITEM "&Enregistrer\tCtrl+S",        ID_FILE_SAVE
+        MENUITEM "En&registrer sous...",        ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Imprimer...\tCtrl+P",        ID_FILE_PRINT
+        MENUITEM "Aperçu a&vant impression",    ID_FILE_PRINT_PREVIEW
+        MENUITEM "C&onfiguration de l'impression...", ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Fichier récent",              ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Quitter",                    ID_APP_EXIT
+    END
+    POPUP "&Affichage"
+    BEGIN
+        MENUITEM "&Barre d'outils",             ID_VIEW_TOOLBAR
+        MENUITEM "Barre d'é&tat",               ID_VIEW_STATUS_BAR
+    END
+    POPUP "F&ormat"
+    BEGIN
+        MENUITEM "Carte de &visite",            ID_FORMAT_CARTEDEVISITE
+        MENUITEM "Carte de v&oeux",             ID_FORMAT_CARTEDEVOEUX
+        MENUITEM "Carte &postale",              ID_FORMAT_CARTEPOSTALE
+        MENUITEM "&Invitation",                 ID_FORMAT_INVITATION
+    END
+    POPUP "&Insertion"
+    BEGIN
+        MENUITEM "&Texte",                      ID_INSERTION_TEXTE
+        MENUITEM "&Image",                      ID_INSERTION_IMAGE
+        MENUITEM "&Couleur du fond",            ID_RESSOURCES_COULEURDUFOND
+    END
+    POPUP "&Ressources"
+    BEGIN
+        MENUITEM "Image de &fond",              ID_RESSOURCES_IMAGEDEFOND
+        MENUITEM "&Imagettes",                  ID_RESSOURCES_IMAGETTES
+        MENUITEM "&Polices Prédéfinies",        ID_RESSOURCES_POLICESPRDFINIES
+
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&A propos de Crea2K6...",     ID_APP_ABOUT
+        MENUITEM "Ai&de",                       ID__AIDE
+    END
+END
+
+IDR_CURSOR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU0"
+    BEGIN
+        MENUITEM "Mettre en arriere plan",      ID_TO_BACK
+        MENUITEM "Déplacer",                    ID_DEPLACER
+        MENUITEM "Supprimer",                   ID_DELETE
+        MENUITEM "Editer le texte",             ID_MENU0_EDITER
+    END
+    POPUP "MENU1"
+    BEGIN
+        MENUITEM "Mettre en arriere plan",      ID_TO_BACK
+        MENUITEM "Déplacer",                    ID_DEPLACER2
+        MENUITEM "Supprimer",                   ID_DELETE
+        MENUITEM "Redimensionner",              ID_MENU1_REDIMENSIONNER
+    END
+    POPUP "MENU2"
+    BEGIN
+        MENUITEM "Ajouter un texte",            ID_MENU2_AJOUTERUNTEXTE
+        MENUITEM "Ajouter une police prédéfinie", 
+                                                ID_MENU2_AJOUTERUNEPOLICEPRDFINIE
+
+        MENUITEM SEPARATOR
+        MENUITEM "Ajouter une image de fond",   ID_MENU2_AJOUTERUNEIMAGE
+        MENUITEM "Supprimer l'image de fond",   ID_MENU2_SUPPRIMERUNIMAGEDEFOND
+
+        MENUITEM "Ajouter une couleur de fond", ID_MENU2_AJOUTERUNECOULEURDEFOND
+
+        MENUITEM SEPARATOR
+        MENUITEM "Ajouter une imagette",        ID_MENU2_AJOUTERUNEIMAGETTE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_FORMAT_CARTEPOSTALE, VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_FORMAT_CARTEDEVOEUX, VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_FORMAT_INVITATION,   VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_FORMAT_CARTEDEVISITE, VIRTKEY, CONTROL, NOINVERT
+    VK_F1,          ID__AIDE,               VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 131
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Créa2K6> A propos de Crea2K6"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BITMAP,41,17,20,20
+    LTEXT           "Crea2K6 version 1.0",IDC_STATIC,83,16,77,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "Projet d'IHM\n\nCréateurs: Maréchal Anthony et Benoit\n\nBut: Création de cartes de voeux/visite avec Visual C++\n\nAnnée: semestre 5 de Licence 3 d'informatique",
+                    IDC_STATIC,41,44,187,80
+END
+
+IDD_DIALOG_TEXTE DIALOG DISCARDABLE  0, 0, 238, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Crea2K6> Edition du texte"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,43,111,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,143,111,50,14
+    PUSHBUTTON      "Choisir la police",IDC_BUTTON_POLICE,23,84,92,14
+    EDITTEXT        IDC_EDIT_CONTENU,24,25,109,13,ES_AUTOHSCROLL
+    LTEXT           "Entrez le texte :",IDC_STATIC,24,14,51,9
+    CONTROL         "Gauche",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,25,60,41,
+                    10
+    CONTROL         "Centré",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,69,60,37,
+                    10
+    CONTROL         "Droite",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,113,60,
+                    35,10
+    LTEXT           "Alignement du texte :",IDC_STATIC,23,46,66,10
+    PUSHBUTTON      "Choisir la couleur",IDC_BUTTON_COULEUR,125,84,95,15
+END
+
+IDD_DIALOG_IMGFOND DIALOG DISCARDABLE  0, 0, 234, 200
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Créa2K6> Choisir une image de fond"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,33,170,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,150,170,50,14
+    LISTBOX         IDC_LIST1,23,32,83,94,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST2,131,34,86,92,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Thème",IDC_STATIC,17,20,95,110
+    GROUPBOX        "Images de fond ",IDC_STATIC,125,20,98,111
+    PUSHBUTTON      "Appliquer",IDC_APPLIQUER1,23,136,192,20
+END
+
+IDD_DIALOG_IMAGETTE DIALOG DISCARDABLE  0, 0, 292, 206
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Créa2K6> Choisir une imagette"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,25,185,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,207,185,50,14
+    LISTBOX         IDC_LIST1,17,17,111,115,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST2,163,17,113,119,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Type d'imagette ",IDC_STATIC,7,7,132,134
+    GROUPBOX        "Fichier ",IDC_STATIC,155,7,130,135
+    PUSHBUTTON      "Appliquer",IDC_APPLIQUER,16,150,250,21
+END
+
+IDD_DIALOG_FONTPREDEF DIALOG DISCARDABLE  0, 0, 287, 248
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Créa2K6> Police Prédéfinies"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,230,7,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,230,24,50,14
+    CONTROL         "Titre 1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,13,7,36,
+                    10
+    CONTROL         "Titre 2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,13,20,
+                    36,10
+    CONTROL         "Titre 3",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,13,34,
+                    36,10
+    CONTROL         "Texte 1",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,63,7,40,
+                    10
+    CONTROL         "Texte 2",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,63,20,
+                    40,10
+    CONTROL         "Texte 3",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,63,34,
+                    40,10
+    CONTROL         "Message 1",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,119,7,
+                    51,10
+    CONTROL         "Message 2",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,119,
+                    20,51,10
+    CONTROL         "Message 3",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,119,
+                    34,51,10
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP,7,54,273,178
+END
+
+IDD_DIALOG_AIDE DIALOG DISCARDABLE  0, 0, 319, 195
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Créa2K6> Aide"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,17,174,91,14
+    LTEXT           "Bienvenu dans la rubrique d'aide !\nVoyons ensemble les différentes possibilités qu'offre Créa2K6 :",
+                    IDC_STATIC,7,18,296,19
+    LTEXT           "Choix du format de la carte :\n\t- Sélectionner l'option Format et choisissez le Format que vous désirez\nChoix de la couleur de fond :",
+                    IDC_STATIC,7,37,305,24
+    LTEXT           "\t- Pour cela il faut sélectionner  Ressource>Couleur du fond\nChoix d'une Image de fond :\n\t - Sélectionner l'option Ressources> Image de Fond",
+                    IDC_STATIC,7,62,305,25
+    LTEXT           "Insertion d'une Imagette :\n\t- Sélectionner l'option Ressources> Imagettes\nInsertion  dans une police prédéfinie :",
+                    IDC_STATIC,7,87,305,26
+    LTEXT           "\t- Sélectionner l'option Ressources> Insérer une police prédéfinie\nInsertion d'un texte :\n\t- Sélectionner l'option Insertion>Texte",
+                    IDC_STATIC,7,112,305,24
+    LTEXT           "Insertion d'une image externe (lien vers un fichier) :\n\t- Sélectionner l'option Insertion> Image",
+                    IDC_STATIC,7,137,312,28
+    PUSHBUTTON      "Afficher le manuel d'aide",IDC_BUTTON1,167,174,104,14
+END
+
+IDD_DIALOG_REDIM DIALOG DISCARDABLE  0, 0, 186, 88
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Créa2K6> Redimensionnement"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,5,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,129,24,50,14
+    EDITTEXT        IDC_EDIT1,21,28,63,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,20,59,62,13,ES_AUTOHSCROLL
+    LTEXT           "Largeur",IDC_STATIC,21,16,68,12
+    LTEXT           "Hauteur",IDC_STATIC,21,49,70,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040C04B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Application MFC Crea2K6\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Crea2K6\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Crea2K6.EXE\0"
+            VALUE "ProductName", "Application Crea2K6\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DIALOG_TEXTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_DIALOG_IMGFOND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_DIALOG_IMAGETTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 285
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+    END
+
+    IDD_DIALOG_FONTPREDEF, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 241
+    END
+
+    IDD_DIALOG_AIDE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 188
+    END
+
+    IDD_DIALOG_REDIM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 81
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Crea2K6\n\nCrea2K\n\n\nCrea2K6.Document\nCrea2K Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Crea2K6"
+    AFX_IDS_IDLEMESSAGE     "Prêt"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "MAJ"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "DEF"
+    ID_INDICATOR_OVR        "ECR"
+    ID_INDICATOR_REC        "ENR"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Crée un nouveau document\nNouveau"
+    ID_FILE_OPEN            "Ouvre un document existant\nOuvrir"
+    ID_FILE_CLOSE           "Ferme le document actif\nFermer"
+    ID_FILE_SAVE            "Enregistre le document actif\nEnregistrer"
+    ID_FILE_SAVE_AS         "Enregistre le document actif sous un nouveau nom\nEnregistrer sous"
+    ID_FILE_PAGE_SETUP      "Change les options d'impression\nMise en page"
+    ID_FILE_PRINT_SETUP     "Change les options d'imprimante et d'impression\nConfiguration de l'impression"
+    ID_FILE_PRINT           "Imprime le document actif\nImprimer"
+    ID_FILE_PRINT_PREVIEW   "Affiche des pages entières\nAperçu avant impression"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Affiche les informations sur Crea2K6\nAffiche les informations de Créa2K6"
+    ID_APP_EXIT             "Ferme l'application ; propose d'enregistrer les documents\nQuitter"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Ouvre ce document"
+    ID_FILE_MRU_FILE2       "Ouvre ce document"
+    ID_FILE_MRU_FILE3       "Ouvre ce document"
+    ID_FILE_MRU_FILE4       "Ouvre ce document"
+    ID_FILE_MRU_FILE5       "Ouvre ce document"
+    ID_FILE_MRU_FILE6       "Ouvre ce document"
+    ID_FILE_MRU_FILE7       "Ouvre ce document"
+    ID_FILE_MRU_FILE8       "Ouvre ce document"
+    ID_FILE_MRU_FILE9       "Ouvre ce document"
+    ID_FILE_MRU_FILE10      "Ouvre ce document"
+    ID_FILE_MRU_FILE11      "Ouvre ce document"
+    ID_FILE_MRU_FILE12      "Ouvre ce document"
+    ID_FILE_MRU_FILE13      "Ouvre ce document"
+    ID_FILE_MRU_FILE14      "Ouvre ce document"
+    ID_FILE_MRU_FILE15      "Ouvre ce document"
+    ID_FILE_MRU_FILE16      "Ouvre ce document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Passe au volet de fenêtre suivant\nVolet suivant"
+    ID_PREV_PANE            "Revient au volet précédent\nVolet précédent"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Réorganise les fenêtres en une mosaïque\nMosaïque"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Efface la sélection\nEffacer"
+    ID_EDIT_CLEAR_ALL       "Efface tout\nEffacer tout"
+    ID_EDIT_COPY            "Copie la sélection et la place dans le Presse-papiers\nCopier"
+    ID_EDIT_CUT             "Supprime la sélection et la place dans le Presse-papiers\nCouper"
+    ID_EDIT_FIND            "Recherche le texte spécifié\nRechercher"
+    ID_EDIT_PASTE           "Insère le contenu du Presse-papiers\nColler"
+    ID_EDIT_REPEAT          "Répète la dernière action\nRépéter"
+    ID_EDIT_REPLACE         "Remplace le texte spécifique par un texte différent\nRemplacer"
+    ID_EDIT_SELECT_ALL      "Sélectionne le document entier\nSélectionner tout"
+    ID_EDIT_UNDO            "Annule la dernière action\nAnnuler"
+    ID_EDIT_REDO            "Rétablit l'action précédemment annulée\nRétablir"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Affiche ou masque la barre d'outils\nBarre d'outils"
+    ID_VIEW_STATUS_BAR      "Affiche ou masque la barre d'état\nBarre d'état"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change la taille de la fenêtre"
+    AFX_IDS_SCMOVE          "Change la position de la fenêtre"
+    AFX_IDS_SCMINIMIZE      "Réduit la fenêtre en icône"
+    AFX_IDS_SCMAXIMIZE      "Agrandit la fenêtre au format de l'écran"
+    AFX_IDS_SCNEXTWINDOW    "Passe à la fenêtre de document suivante"
+    AFX_IDS_SCPREVWINDOW    "Passe à la fenêtre de document précédente"
+    AFX_IDS_SCCLOSE         "Ferme la fenêtre active et propose l'enregistrement des documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restaure la fenêtre à sa taille d'origine"
+    AFX_IDS_SCTASKLIST      "Active la liste des tâches"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Ferme le mode d'aperçu avant impression\nFermer l'aperçu"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INSERTION_TEXTE      "Permet d'insérer un texte avec un formatage par défaut\nInsère un texte simple au milieu de la carte"
+    ID_INSERTION_IMAGE      "Permet d'inserer une image présente sur votre ordinateur\nInsère une image extérieur au programme"
+    ID_FORMAT_CARTEDEVISITE "Crée une carte avec les dimensions d'une carte de visite\nCrée une carte de visite"
+    ID_FORMAT_CARTEDEVOEUX  "Crée une carte avec les dimensions d'une carte de voeux\nCrée une carte de voeux"
+    ID_FORMAT_CARTEPOSTALE  "Crée une carte avec les dimensions d'une carte postale\nCrée une carte postale"
+    ID_FORMAT_INVITATION    "Crée un carton avec les dimensions d'un carton d'invitation\nCrée une carte d'Invitation"
+    ID_RESSOURCES_IMAGEDEFOND 
+                            "Permet d'insérer une image de fond\nInsère une image de fond"
+    ID_RESSOURCES_IMAGETTES "Permet l'ajout de petites images décoratives\nInsère une imagette"
+    ID_RESSOURCES_POLICESPRDFINIES 
+                            "Permet l'ajout de police prédéfinies\n\tInsère un texte avec une police prédéfinies\\Ajoute une police prédéfinie"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_BUTTON32789          "Permet d'inserer un texte"
+    ID_BUTTON32793          "Permet d'insérer une image"
+    ID_BUTTON32796          "Permet d'insérer une imagette du programme"
+    ID_RESSOURCES_COULEURDUFOND 
+                            "Permet le choix d'une couleur de fond\nDéfini la couleur de fond de l'application"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID__AIDE                "Affiche l'aide de Créa2K6\nAffiche l'aide"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE 12, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Crea2K6.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.fra\afxres.rc"          // Standard components
+#include "l.fra\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
