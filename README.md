@@ -6,7 +6,7 @@ Je conseille la lecture de la documentation qui explique plus en détail le fonc
 
 # Screenshots
 
-![alt text](screenshot1.png?raw=true "screenshot 1")
 ![alt text](screenshot2.png?raw=true "screenshot 2")
 ![alt text](screenshot3.png?raw=true "screenshot 3")
 ![alt text](screenshot4.png?raw=true "screenshot 4")
+![alt text](screenshot1.jpg?raw=true "screenshot 1")
